@@ -1,0 +1,60 @@
+# ==========================================
+# CRITICAL: Secrets & Environment Variables
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.secret
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# ML Models & Large Data Files
+# ==========================================
+models/*.onnx
+models/*.pt
+models/*.pth
+models/*.bin
+data/raw/
+data/processed/
+*.h5
+*.pkl
+
+# ==========================================
+# Testing & Linting Caches
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
